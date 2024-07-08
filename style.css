@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.post {
+  background-color: rgb(255, 255, 255);
+  max-width: 550px;
+}
+
+.post-header,
+.body-icons {
+  position: relative;
+  height: 70px;
+}
+
+.icons-left,
+.icons-right,
+.header-title,
+.header-menu {
+  position: absolute;
+  display: inline-block;
+}
+
+.icons-left,
+.header-title {
+  left: 15px;
+  top: 15px;
+}
+
+.header-title .user {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.icons-right,
+.header-menu {
+  right: 15px;
+  top: 15px;
+}
+
+.fa-html5,
+.fa-ellipsis-vertical,
+.fa-heart,
+.fa-comment,
+.fa-paper-plane,
+.fa-bookmark {
+  font-size: 35px;
+}
+
+.fa-heart,
+.fa-comment {
+  margin-right: 8px;
+}
+.post-image img {
+  max-width: 100%;
+}
+
+.body-description {
+  padding: 0px 15px 30px;
+}
+.body-description .description-likes {
+  margin-bottom: 20px;
+}
